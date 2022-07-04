@@ -13,6 +13,14 @@ body {
     justify-content: space-between;
 }
 
+header {
+    display: flex;
+    height: 200px;
+    background-color: rgb (212, 214, 216);
+    overflow: scroll;
+    padding: 10px;
+}
+
 img {
     height: auto;
     width: 300px;
