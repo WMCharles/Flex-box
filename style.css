@@ -8,7 +8,8 @@ html {
 body {
     margin: 50px auto 50px auto;
     background:rgba(255,255,255, 0.8);
-    width: 70%;display: flex;
+    width: 85%;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -82,8 +83,20 @@ h1 {
 #content-1 a:hover {
     color: rgb(250, 255, 0);
     font-weight: 900;
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 header{
     box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    .message, header, main, footer {
+        flex-direction: column;
+        line-height: 150%;
+    }
+    footer {
+        text-align: center;
+    }
 }
